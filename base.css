@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: orangered;
+    padding:inherit;
+    border-top: solid 2px lightgray;
+    border-bottom:solid 2px lightgray;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px lightslategray;
+    padding-left: 15px;
+    
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+
+}
+figure {
+    text-align: center;
+}
+h1 {
+    background: lightgray;
+    text-align: center;
+}
+span{
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.logo img {
+    width: 100%;
+    height: 200px;
+    
+}
+/* Estilizando a tabela */
+.table {
+    width: 250px;
+    border-collapse: collapse;
+}
+
+/* Estilizando as células */
+.table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Estilizando as linhas ímpares */
+.table tr:nth-child(odd) {
+    background-color: lightsalmon;
+}
+
+/* Estilizando o cabeçalho */
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #ddd;
+    
+}
