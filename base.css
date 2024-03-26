@@ -53,30 +53,4 @@ h2 {
     height: 200px;
     
 }
-/* Estilizando a tabela */
-.table {
-    width: 250px;
-    border-collapse: collapse;
-}
 
-/* Estilizando as células */
-.table td {
-    padding: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-/* Estilizando as linhas ímpares */
-.table tr:nth-child(odd) {
-    background-color: lightsalmon;
-}
-
-/* Estilizando o cabeçalho */
-.table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    background-color: #4CAF50;
-    color: white;
-    border: 1px solid #ddd;
-    
-}
